@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
 
-import streamlit as st
-
 def category_filter(df):
     categories = st.sidebar.multiselect(
         "Select Category",
